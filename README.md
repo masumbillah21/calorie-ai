@@ -81,7 +81,7 @@ backend/model/dataset/food-101/images/
 
 Outputs:
 
-- `backend/model/food_model.h5`
+- `backend/model/food_model.keras`
 - `backend/model/class_names.json`
 
 Dataset source:

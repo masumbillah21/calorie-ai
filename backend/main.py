@@ -20,8 +20,9 @@ from model.predict import FoodPredictor, MEAL_SUGGESTIONS, NUTRITION_DB
 
 ROOT_PATH = os.getenv("ROOT_PATH", "/api")
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = os.getenv("MODEL_PATH", str(BASE_DIR / "model" / "food_model.h5"))
 CLASS_PATH = os.getenv("CLASS_NAMES_PATH", str(BASE_DIR / "model" / "class_names.json"))
+DEFAULT_MODEL_PATH = BASE_DIR / "model" / "food_model.keras"
+MODEL_PATH = os.getenv("MODEL_PATH", str(DEFAULT_MODEL_PATH))
 
 app = FastAPI(
     title="CalorieAI API",

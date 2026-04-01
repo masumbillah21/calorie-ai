@@ -10,7 +10,7 @@ services:
       - ./backend/model:/app/model:ro
       - model-cache:/root/.keras
     environment:
-      - MODEL_PATH=/app/model/food_model.h5
+      - MODEL_PATH=/app/model/food_model.keras
       - CLASS_NAMES_PATH=/app/model/class_names.json
       - ROOT_PATH=/api
       - PYTHONUNBUFFERED=1

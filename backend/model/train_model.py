@@ -26,7 +26,7 @@ BATCH_SIZE = 32
 EPOCHS_PHASE1 = 10
 EPOCHS_PHASE2 = 20
 DATASET_DIR = BASE_DIR / "dataset" / "food-101" / "images"
-MODEL_OUT = BASE_DIR / "food_model.h5"
+MODEL_OUT = BASE_DIR / "food_model.keras"
 CLASS_OUT = BASE_DIR / "class_names.json"
 PLOT_OUT = BASE_DIR / "training_history.png"
 
