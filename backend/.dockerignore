@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+model/__pycache__/
+model/dataset/food-101/
+model/training_history.png

@@ -1,0 +1,20 @@
+# Food-101 dataset placeholder
+# Kaggle dataset: https://www.kaggle.com/datasets/dansbecker/food-101
+#
+# Recommended:
+#   make download-dataset
+#
+# Combined download + train:
+#   make setup-model
+#
+# Manual layout if you copy the dataset yourself under backend/model:
+# dataset/
+# `-- food-101/
+#     `-- images/
+#         |-- apple_pie/
+#         |   |-- 1005649.jpg
+#         |   `-- ...
+#         |-- pizza/
+#         `-- ... (101 food folders)
+#
+# Total: ~101,000 images across 101 classes.

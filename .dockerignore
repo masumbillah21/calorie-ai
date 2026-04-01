@@ -1,0 +1,10 @@
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+**/dist/
+**/.git/
+**/.env
+**/venv/
+**/*.h5
+**/training_history.png
+**/dataset/

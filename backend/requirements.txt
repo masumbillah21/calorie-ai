@@ -1,0 +1,9 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.9
+# TensorFlow 2.16.x is the first stable line with Python 3.12 wheels.
+tensorflow==2.16.2
+Pillow==10.2.0
+numpy==1.26.4
+pydantic==2.5.0
+python-dotenv==1.0.0
