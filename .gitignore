@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 *.h5
+*.keras
 *.pb
 node_modules/
 frontend/dist/
